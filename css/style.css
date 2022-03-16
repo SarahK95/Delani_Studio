@@ -216,3 +216,35 @@ body{
     margin-top: 5rem;
     
 }
+
+#form input{
+
+    background-color: transparent;
+
+
+}
+
+#form textarea{
+    background-color: transparent;
+}
+
+.form-control::placeholder{
+    color: #fff;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  margin-top: 50px;
+}
+
+.text-center{
+    margin-top: 0.5rem;
+}
+
+.text-center h5{
+    
+    font-size: 15px;
+}
