@@ -36,5 +36,10 @@ $(document).ready(function(){
     $('.product_text').on('click', function(){
         $('.product_head').hide();
          $('#product_img').show();
-        $('.product_text').hide()
+        $('.product_text').hide();
     })
+
+    $('.btn').click(function(){
+        let myName= $("input#name").val();
+        alert(`${myName} we have received your message.Thank you for reaching out to us`)
+        $("form").trigger("reset");
