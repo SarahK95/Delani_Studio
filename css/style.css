@@ -38,3 +38,24 @@ body{
     margin-top: 1.5rem;
  
 }
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+.about p{
+ letter-spacing: 1.5px;
+ line-height: 2.5;
+
+}
+
+.about h2{
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
