@@ -39,6 +39,10 @@ body{
  
 }
 
+.case img{
+    padding-top: 100px;
+}
+
 .about{
     display: flex;
     flex-direction: column;
