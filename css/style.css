@@ -248,3 +248,34 @@ footer{
     
     font-size: 15px;
 }
+
+.overlay{
+    position:absolute;
+    background-color: rgba(255, 255, 255, 0.466);
+    width: 100%;
+    height: 100%; 
+    top:0;
+    left: 0;
+    display: none;
+    text-align: center;
+    /* padding-top: -100px; */
+}
+
+.list-2 {
+    margin-top: 20px;
+}
+
+.card{
+    border: none;
+}
+
+.container-fluid p{
+
+    font-weight: bold;
+    
+}
+
+.card p {
+    font-size: 30px;
+    padding-top: 5.5rem;
+}
